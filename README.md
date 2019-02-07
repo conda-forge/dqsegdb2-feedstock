@@ -22,9 +22,8 @@ DQSegDB Python client available from https://pypi.org/project/dqsegdb.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/dqsegdb2-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/dqsegdb2-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/dqsegdb2-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/dqsegdb2-feedstock)
-![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/dqsegdb2-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/dqsegdb2-feedstock)
 
 Current release info
 ====================
