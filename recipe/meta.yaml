@@ -12,36 +12,40 @@ source:
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python
-    - setuptools
     - pip
+    - python >=3.6
+    - setuptools
+    - setuptools-scm
   run:
-    - python
+    - igwn-auth-utils
     - ligo-segments
-    - gwdatafind
+    - python >=3.6
+    # extras for igwn-auth-utils[requests]
+    - requests
+    - safe-netrc
 
 test:
   requires:
+    - pip
     - pytest
-    - mock  # [py2k]
-  imports:
-    - dqsegdb2.api
-    - dqsegdb2.http
-    - dqsegdb2.query
+    - requests-mock
   commands:
-    - python -m pytest --pyargs dqsegdb2
+    # check metadata
+    - python -m pip check
+    # run test suite
+    - python -m pytest --pyargs dqsegdb2 -ra -v
 
 about:
   home: https://dqsegdb2.readthedocs.io
   doc_url: https://dqsegdb2.readthedocs.io
-  dev_url: https://github.com/duncanmmacleod/{{ name }}
-  license: GPLv3
-  license_file: LICENSE
+  dev_url: https://github.com/duncanmmacleod/dqsegdb2
+  license: GPL-3.0-or-later
   license_family: GPL
+  license_file: LICENSE
   summary: A simplified Python implementation of the DQSegDB API
   description: |
     This package only provides a query interface for `GET` requests for a
