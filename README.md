@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dqsegdb2-feedst
 
 Summary: A simplified Python implementation of the DQSegDB API
 
-Development: https://github.com/duncanmmacleod/dqsegdb2
+Development: https://git.ligo.org/duncanmmacleod/dqsegdb2
 
 Documentation: https://dqsegdb2.readthedocs.io
 
