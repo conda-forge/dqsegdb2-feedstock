@@ -1,11 +1,11 @@
-About dqsegdb2
-==============
+About dqsegdb2-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dqsegdb2-feedstock/blob/main/LICENSE.txt)
 
 Home: https://dqsegdb2.readthedocs.io
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dqsegdb2-feedstock/blob/main/LICENSE.txt)
 
 Summary: A simplified Python implementation of the DQSegDB API
 
