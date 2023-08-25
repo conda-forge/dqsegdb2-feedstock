@@ -1,5 +1,5 @@
 {% set name = "dqsegdb2" %}
-{% set version = "1.2.0" %}
+{% set version = "1.2.1" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: fef25bccf411f8df20c80f1f7cfe944247b6c2ee42f9f6dc3240cff695f0c218
+  sha256: 6a222dbb7024de6de845ba5ad3583859cecf8ed5ce584ff5db6f01581b821f81
 
 build:
   number: 0
@@ -21,7 +21,7 @@ requirements:
     - setuptools >=42
     - setuptools-scm >=3.4.3
   run:
-    - igwn-auth-utils >=0.4.0
+    - igwn-auth-utils >=1.0.0
     - ligo-segments >=1.0.0
     - python >=3.6
 
