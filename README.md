@@ -9,7 +9,7 @@ Package license: GPL-3.0-or-later
 
 Summary: A simplified Python implementation of the DQSegDB API
 
-Development: https://git.ligo.org/duncanmmacleod/dqsegdb2
+Development: https://git.ligo.org/computing/software/dqsegdb2.git
 
 Documentation: https://dqsegdb2.readthedocs.io
 
