@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.3.0"
+  version: "1.3.1"
 
 package:
   name: dqsegdb2
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/dqsegdb2/dqsegdb2-${{ version }}.tar.gz
-  sha256: 4e291899cd395daf5913c48a835d213ef20833d78354871cb848988cc2cc8ae4
+  sha256: 4a36fcb514a656c52e6b135936daa198f0a2bac52f36bc0ea4174b109bc76d15
 
 build:
   number: 0
